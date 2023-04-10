@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_perfil_do_ministros",
+  "info": {
+    "displayName": "perfil-do-ministro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nome_instituicao": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string",
+      "default": "O Ministro"
+    },
+    "nome_do_ministro": {
+      "type": "string"
+    }
+  }
+}

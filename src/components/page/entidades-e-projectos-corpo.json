@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_entidades_e_projectos_corpos",
+  "info": {
+    "displayName": "entidades_e_projectos_corpo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logotipo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

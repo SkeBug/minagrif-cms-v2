@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_homes",
+  "info": {
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cabecalho_descricao": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "perfil_do_ministro": {
+      "displayName": "perfil-do-ministro",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.perfil-do-ministro"
+    },
+    "entidades_e_projectos_cabecalho": {
+      "displayName": "entidades_e_projectos",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.entidades-e-projectos"
+    },
+    "entidades_de_tutela": {
+      "displayName": "entidades_de_tutela",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.entidades-de-tutela"
+    },
+    "projectos_estruturantes": {
+      "displayName": "projectos_estruturantes",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.projectos-estruturantes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_entidades_e_projectos",
+  "info": {
+    "displayName": "entidades_e_projectos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nome_instituicao": {
+      "type": "string",
+      "default": "Minagrif"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

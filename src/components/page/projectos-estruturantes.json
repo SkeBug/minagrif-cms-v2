@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_projectos_estruturantes",
+  "info": {
+    "displayName": "projectos_estruturantes"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descricao": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

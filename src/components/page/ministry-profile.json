@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_ministry_profiles",
+  "info": {
+    "displayName": "ministry-profile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profile": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

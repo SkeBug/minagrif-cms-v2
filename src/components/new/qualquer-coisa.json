@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_new_qualquer_coisas",
+  "info": {
+    "displayName": "qualquer coisa"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

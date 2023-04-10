@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_entidades_de_tutelas",
+  "info": {
+    "displayName": "entidades_de_tutela"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descricao": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

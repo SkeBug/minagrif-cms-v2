@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_big_links",
+  "info": {
+    "displayName": "big-link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_ministry_holders",
+  "info": {
+    "displayName": "ministry-holders",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ministry_profile": {
+      "displayName": "ministry-profile",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.ministry-profile"
+    },
+    "state_secretary_profile": {
+      "displayName": "state-secretary-profile",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.state-secretary-profile"
+    }
+  }
+}
