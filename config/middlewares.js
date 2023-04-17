@@ -18,4 +18,11 @@ module.exports = [
       keepHeaderOnError: true,
     },
   },
+  {
+    name: 'strapi::ip',
+    config: {
+      whitelist: ['34.68.183.*'],
+      blacklist: [''],
+    },
+  },
 ];
