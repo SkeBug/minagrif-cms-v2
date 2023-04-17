@@ -44,7 +44,10 @@
       "type": "dynamiczone",
       "components": [
         "page.ministry-holders",
-        "page.home"
+        "page.home",
+        "page.album",
+        "page.servicos",
+        "page.conteudo-livre"
       ]
     }
   }

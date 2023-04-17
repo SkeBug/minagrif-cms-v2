@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_conteudo_livres",
+  "info": {
+    "displayName": "conteudo_livre"
+  },
+  "options": {},
+  "attributes": {
+    "conteudo": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

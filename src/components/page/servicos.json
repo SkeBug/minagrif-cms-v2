@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_servicos",
+  "info": {
+    "displayName": "servicos"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "text"
+    }
+  }
+}
