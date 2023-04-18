@@ -12,17 +12,11 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://34.68.183.66', 'https://teste.did4all.com', 'https://teste-minagrif.vercel.app'], 
+      // origin: ['http://localhost:3000', 'https://34.68.183.66', 'https://teste.did4all.com', 'https://teste-minagrif.vercel.app'], 
+      origin: ['*'],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       keepHeaderOnError: true,
     },
   },
-  // {
-  //   name: 'strapi::ip',
-  //   config: {
-  //     whitelist: ['34.68.183.*'],
-  //     blacklist: [''],
-  //   },
-  // },
 ];
