@@ -45,9 +45,9 @@
       "components": [
         "page.ministry-holders",
         "page.home",
-        "page.album",
         "page.servicos",
-        "page.conteudo-livre"
+        "page.conteudo-livre",
+        "page.albums"
       ]
     }
   }
