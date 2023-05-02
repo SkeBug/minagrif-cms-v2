@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipos_documentos",
+  "info": {
+    "singularName": "tipos-documento",
+    "pluralName": "tipos-documentos",
+    "displayName": "Tipos de documentos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "documentos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento.documento",
+      "mappedBy": "tipo_de_documento"
+    }
+  }
+}
