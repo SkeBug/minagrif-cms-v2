@@ -9,13 +9,13 @@
     "profile": {
       "type": "string"
     },
-    "name": {
+    "nome": {
       "type": "string"
     },
-    "title": {
+    "titulo": {
       "type": "string"
     },
-    "content": {
+    "conteudo": {
       "type": "customField",
       "options": {
         "preset": "custom"
@@ -23,6 +23,31 @@
       "customField": "plugin::ckeditor5.CKEditor"
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "test": {
+      "type": "string"
+    },
+    "nmnm": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "EvandroSIlva": {
       "allowedTypes": [
         "images",
         "files",
@@ -30,7 +55,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }

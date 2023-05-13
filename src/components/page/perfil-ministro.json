@@ -1,12 +1,14 @@
 {
-  "collectionName": "components_page_state_secretary_profiles",
+  "collectionName": "components_page_perfil_ministros",
   "info": {
-    "displayName": "state-secretary-profile",
-    "description": ""
+    "displayName": "perfil_ministro"
   },
   "options": {},
   "attributes": {
     "nome": {
+      "type": "string"
+    },
+    "perfil": {
       "type": "string"
     },
     "titulo": {
@@ -20,15 +22,14 @@
       "customField": "plugin::ckeditor5.CKEditor"
     },
     "fotografia": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -1,22 +1,22 @@
 {
   "collectionName": "components_page_ministry_holders",
   "info": {
-    "displayName": "ministry-holders",
+    "displayName": "Titulares do ministério",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "ministry_profile": {
-      "displayName": "ministry-profile",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.ministry-profile"
-    },
-    "state_secretary_profile": {
+    "perfil_dos_secretarios_de_estado": {
       "displayName": "state-secretary-profile",
       "type": "component",
       "repeatable": true,
       "component": "page.state-secretary-profile"
+    },
+    "perfil_ministro": {
+      "displayName": "perfil_ministro",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.perfil-ministro"
     }
   }
 }
