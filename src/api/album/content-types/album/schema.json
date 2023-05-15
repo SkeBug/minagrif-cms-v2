@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "eventos",
+  "collectionName": "albums",
   "info": {
-    "singularName": "evento",
-    "pluralName": "eventos",
-    "displayName": "Evento",
+    "singularName": "album",
+    "pluralName": "albums",
+    "displayName": "Álbums",
     "description": ""
   },
   "options": {
@@ -25,9 +25,10 @@
           "translate": "translate"
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "resumo": {
+    "descricao": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -38,51 +39,13 @@
       },
       "type": "text"
     },
-    "conteudo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
-    },
-    "categoria": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        },
-        "translate": {
-          "translate": "translate"
-        }
-      },
-      "type": "string"
-    },
-    "data_inicio": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "datetime"
-    },
-    "data_fim": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "datetime"
-    },
-    "capa": {
+    "imagens": {
       "type": "media",
-      "multiple": false,
-      "required": false,
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
-        "images"
+        "images",
+        "videos"
       ],
       "pluginOptions": {
         "i18n": {
@@ -103,7 +66,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "slug"
     }
   }
 }
